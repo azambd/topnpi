@@ -20,8 +20,24 @@ Further scope to add back-end MySQL DB tables [ Example: `master_reviews` & `mas
 + recommend
 + url
 
-# Folder Structure
+### Folder Structure
 ```
+├── export
+│   └── topnpi2020-Jan-31_08-07-29.csv
+├── README.md
+├── scrapy.cfg
+└── topnpi
+    ├── exporters.py
+    ├── __init__.py
+    ├── items.py
+    ├── middlewares.py
+    ├── pipelines.py
+    ├── settings.py
+    └── spiders
+        ├── __init__.py
+        └── topnpi_review.py
+
+3 directories, 11 files
 ```
 
 ### Installation and Running
