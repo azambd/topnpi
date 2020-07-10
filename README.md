@@ -20,6 +20,9 @@ Further scope to add back-end MySQL DB tables [ Example: `master_reviews` & `mas
 + recommend
 + url
 
+# Folder Structure
+```
+```
 
 ### Installation and Running
 ```
